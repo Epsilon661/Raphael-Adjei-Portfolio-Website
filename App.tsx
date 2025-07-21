@@ -1,9 +1,9 @@
 import React, { useState, useTransition } from 'react';
-import { Navigation } from './components/Navigation';
-import { Home } from './components/Home';
-import { About } from './components/About';
-import { Projects } from './components/Projects';
-import { Contact } from './components/Contact';
+import { Navigation } from './components/Navigation.tsx';
+import { Home } from './components/Home.tsx';
+import { About } from './components/About.tsx';
+import { Projects } from './components/Projects.tsx';
+import { Contact } from './components/Contact.tsx';
 
 export type Page = 'home' | 'about' | 'portfolio' | 'contact';
 

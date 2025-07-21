@@ -1,5 +1,5 @@
 import React from 'react';
-import { EnvelopeIcon, LinkedInIcon, PhoneIcon, MapPinIcon } from './icons';
+import { EnvelopeIcon, LinkedInIcon, PhoneIcon, MapPinIcon } from './icons/index.tsx';
 
 interface HeaderProps {
     name: string;

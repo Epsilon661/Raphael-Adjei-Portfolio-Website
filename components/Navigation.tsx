@@ -1,5 +1,5 @@
 import React from 'react';
-import type { Page } from '../App';
+import type { Page } from '../App.tsx';
 
 interface NavigationProps {
     currentPage: Page;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { PROFILE_SUMMARY } from '../constants';
+import { PROFILE_SUMMARY } from '../constants.ts';
 
 export const About: React.FC = () => {
     return (

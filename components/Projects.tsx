@@ -1,6 +1,6 @@
 import React from 'react';
-import { PROJECTS_DATA } from '../constants';
-import { Project } from '../types';
+import { PROJECTS_DATA } from '../constants.ts';
+import { Project } from '../types.ts';
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => (
     <div className="group relative rounded-xl border border-slate-800 bg-slate-900/50 p-6 transition-all duration-300 hover:!border-yellow-400/50 hover:bg-slate-900 hover:shadow-2xl hover:shadow-yellow-500/10">

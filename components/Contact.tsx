@@ -1,6 +1,6 @@
 import React from 'react';
-import { CONTACT_INFO } from '../constants';
-import { EnvelopeIcon, LinkedInIcon, PhoneIcon, MapPinIcon } from './icons';
+import { CONTACT_INFO } from '../constants.ts';
+import { EnvelopeIcon, LinkedInIcon, PhoneIcon, MapPinIcon } from './icons/index.tsx';
 
 const ContactItem: React.FC<{href?: string; icon: React.ReactNode; text: string; label: string;}> = ({ href, icon, text, label }) => {
     const content = (

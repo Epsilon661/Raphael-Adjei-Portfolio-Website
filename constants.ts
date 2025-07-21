@@ -1,4 +1,4 @@
-import { Project } from './types';
+import { Project } from './types.ts';
 
 export const NAME = "ADJEI RAPHAEL NII ADJETEY";
 export const HEADLINE = "Mechanical Engineering Student | Innovator & Problem Solver";

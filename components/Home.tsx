@@ -1,7 +1,7 @@
 import React from 'react';
-import { NAME, HEADLINE } from '../constants';
-import type { Page } from '../App';
-import { ARLogo } from './icons/ARLogo';
+import { NAME, HEADLINE } from '../constants.ts';
+import type { Page } from '../App.tsx';
+import { ARLogo } from './icons/ARLogo.tsx';
 
 interface HomeProps {
     setCurrentPage: (page: Page) => void;
